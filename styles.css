@@ -1,0 +1,559 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+h2 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+a {
+  text-decoration: none !important;
+  font-family: inherit;
+}
+
+.T {
+  background-color: blue;
+}
+
+.header-top {
+  height: 85px;
+  background-color: #003471;
+}
+
+.header-top-bottom {
+  height: 200px;
+  background-color: blue;
+}
+
+.KHSLogo:hover {
+  transform: scale(1.1);
+}
+
+.KHSLogo {
+  height: 200px;
+}
+
+.khsmoto {
+  padding-top: 15px;
+  color: white;
+  /* width: 250px; */
+}
+
+.sixthformh2 {
+  padding-left: 10px;
+  padding-top: 45px;
+}
+
+.weekinfo {
+  color: white;
+  position: absolute;
+  padding-bottom: 100px;
+  margin: -55px;
+  margin-left: 700px;
+}
+
+.SchoolLinks3:hover {
+  transform: scale(1.1)
+}
+
+.SchoolLinks2:hover {
+  transform: scale(1.1)
+}
+
+.SchoolLinks:hover {
+  transform: scale(1.1)
+}
+
+.SchoolLinks {
+  position: absolute;
+  padding-bottom: 100px;
+  margin: -60px;
+  margin-left: 700px;
+}
+
+.SchoolLinks2 {
+  position: absolute;
+  padding-bottom: 100px;
+  margin: -60px;
+  margin-left: 750px;
+}
+
+.SchoolLinks3 {
+  position: absolute;
+  padding-bottom: 100px;
+  margin: -60px;
+  margin-left: 800px;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: black;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+.footer-top {
+  height: 300px;
+  background-color: #04A4CC;
+}
+
+.plinks:hover {
+  cursor: pointer;
+}
+
+.twittericon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1150px;
+  margin-top: 120px;
+  border-radius: 100px;
+  height: 75px;
+}
+
+.plinks {
+  margin-top: 45px;
+  padding-left: 1500px;
+  width: 2000px;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ofstedrating {
+  font-size: 25px;
+  margin-left: 15px !important;
+  padding-top: 200px;
+  padding-left: 35px;
+  color: white;
+}
+
+.Ofsted {
+  margin-left: 50px;
+  margin-top: 175px;
+  height: 75px;
+}
+
+
+.sixthforminfoimg {
+  height: 200px;
+}
+
+.latestnewsimg {
+  width: 850px;
+  height: 200px;
+}
+
+.news-box:hover {
+  background-color: yellow;
+}
+
+.sixthforminfo  {
+  height: 200px;
+  background-color: orange;
+}
+
+.ln-i:hover {
+  color: #007da8;
+}
+
+.ln-i {
+  font-family: "inherit" !important;
+  color: #00a3db;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.ht-a:hover {
+  color: #007da8;
+}
+
+.ht-a {
+  font-family: "inherit" !important;
+  color: #00a3db;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.readmorepoints:hover {
+  background-color: #003471;
+  text-decoration: none;
+  color: white
+}
+
+
+
+.HousePointsimage {
+  margin-left: 150px;
+  margin-top: 50px;
+  height: 300px;
+}
+
+
+.readmorepoints {
+  margin-left: 125px;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  font-size: 13px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.readmore {
+  color: #007bb6;
+  font-size: 13px;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.fullday:hover {
+  cursor: pointer;
+  background-color: #fddb3a;
+}
+
+.sixthform:hover {
+  background-color: #fddb3a;
+}
+
+.sixthformitems {
+  color: white;
+}
+
+.sixthform {
+  margin-top: 50px;
+  height: 370px;
+  background-color: #04A4CC;
+}
+
+.fulldaytitle {
+  padding-top: 35px;
+}
+
+.fullweektitle {
+  padding-top: 35px;
+}
+
+.weeksaheadtitle {
+  padding-top: 35px;
+}
+
+
+.fulldesc {
+  color: white;
+}
+
+.weekdesc {
+  color: white;
+}
+
+.weeksahead:hover {
+  cursor: pointer;
+  background-color: #fddb3a;
+}
+
+
+.fullweek:hover {
+  cursor: pointer;
+  background-color: #fddb3a;
+}
+
+.daydesc {
+  color: white;
+}
+
+.fullday {
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 150px;
+  width: 1235px;
+  background-color: #04A4CC;
+}
+
+.fullweek {
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 150px;
+  width: 1235px;
+  background-color: #04A4CC;
+}
+
+.weeksahead {
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 150px;
+  width: 1235px;
+  background-color: #04A4CC;
+}
+
+.sixthdesc {
+  color: white;
+}
+
+.sixthformdesc {
+  margin-bottom: 160px;
+}
+
+.headphoto {
+  margin-right: 30px;
+  /* margin-top: 100px;
+  margin-left: 0px; */
+  height: 300px;
+}
+
+.ln-h2 {
+  font-weight: lighter !important;
+  letter-spacing: 1px !important;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif' !important;
+}
+
+.ht-h2 {
+  font-weight: lighter !important;
+  letter-spacing: 1px !important;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif' !important;
+}
+
+.headblog-hr {
+  color: gray;
+  margin-top: 20px;
+}
+
+.footer-bottom {
+  /* margin-top: 696px; */
+  height: 100px;
+  background-color: #003471;
+}
+
+.FooterLinks:hover {
+  color: #007da8;
+}
+
+.FooterLinks {
+  width: 100px;
+  position: absolute;
+  margin-top: 35px !important;
+  /* margin-left: 650px; */
+  color: #00a3db;
+}
+
+.copyright {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 45px;
+  color: white;
+}
+
+.PrivacyPolicy {
+ width: 200px !important;
+  margin-left: 300px !important;
+}
+
+.TC {
+  width: 200px !important;
+  margin-left: 400px !important;
+}
+
+.ParentsPage {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 10px !important;
+}
+
+.header-bottom {
+  height: 120px;
+  background-color: #3282b8;
+}
+
+.HomeIcon {
+  position: absolute;
+  margin-left: 175px;
+  margin-top: 10px;
+  height: 50px;
+}
+
+.dropdownhovers {
+  text-transform: uppercase;
+  color: white !important;
+
+}
+
+.dropdownhovers:hover {
+  background-color: #04A4CC;
+}
+
+.schooldropdown {
+  margin-left: 225px;
+  margin-top: 15px;
+}
+
+.partnershipsdropdown {
+  position: absolute;
+  top: 0;
+  margin-right: 450px !important;
+  margin-top: 15px;
+}
+
+.joinusdropdown {
+  position: absolute;
+  top: 0;
+  margin-right: 950px;
+  margin-top: 15px;
+}
+
+.newslink {
+  position: absolute;
+  top: 0;
+  margin-right: 950px;
+  margin-top: 15px;
+}
+
+.calenderlink {
+  position: absolute;
+  top: 0;
+  margin-right: 950px;
+  margin-top: 15px;
+}
+
+.medialink {
+  position: absolute;
+  top: 0;
+  margin-right: 950px;
+  margin-top: 15px;
+}
+
+
+
+
+.quicklinksdropdown {
+  position: absolute;
+  margin: -55px;
+  margin-left: 650px;
+  font-size: 10px;
+  border-radius: 35px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+.SearchIcon {
+  position: absolute;
+  margin: -55px;
+  margin-left: 1020px;
+  border-radius: 35px;
+  background-color: white;
+  height: 35px;
+}
+
+[data-component="slideshow"] .slide {
+	display: none;
+  text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+	display: block;
+}
+
+.slideshowpics {
+  width: 1265px;
+}
+
+
+.slideimages {
+  margin-bottom: 35px;
+  padding-right: 100px;
+}
+
+.slideshow-underlay {
+  background-color: #d6e0f0;
+  height: 465px;
+}
+
+.underlay-after {
+  height: 85px;
+  background-color: #3282b8;
+}
+
+.partnershipstext {
+  margin-top: 35px;
+}
+
+.mapsection {
+  height: 550px;
+  width: 1500px;
+  background-color: #003471;
+}
+
+.khspointsh2 {
+  padding-top: 100px;
+}
+
+.khspointsp {
+  margin-bottom: 45px;
+}
+
+.findmorekhspoints:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #2e6da4;
+}
+
+.khspointdesc {
+  width: 500px;
+}
+
+
+.housepoints {
+  color: white;
+  height: 650px;
+  background-color: #4a4a4d;
+}
+
+.valuesethos:hover {
+  color: #337ab7;
+}
+
+.valuesethos {
+  font-size: 15px;
+  color: #00a3db;
+}
+
+
+.BSText {
+  font-size: 35px;
+  margin-top: 25px;
+  color: #003471;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 5px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  color: #ff5757;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  color: white !important;
+  transform: scale(1.1);
+}
